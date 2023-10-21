@@ -105,6 +105,7 @@ section {
 .home-content p {
     font-size: 1.6rem;
     margin: 2rem 0 4rem;
+    width: 70%; /*Modified width p next to rick-bg*/
 }
 
 .btn-box {
@@ -210,21 +211,6 @@ section {
 
 .home-sci a:hover::before {
     width: 100%;
-}
-
-.home-imgHover {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 45%;
-    height: 100%;
-    background: transparent;
-    transition: 3s;
-}
-
-.home-imgHover:hover {
-    background: var(--bg-color);
-    opacity: .8;
 }
 
 .about {
